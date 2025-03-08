@@ -1,3 +1,5 @@
+// The program include the code for a Riddle guessing game
+
 import java.util.Scanner;
 
 public class Project_2 {
