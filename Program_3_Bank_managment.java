@@ -2,7 +2,7 @@
 import java.util.Scanner;  
   
 //create ATMExample class to implement the ATM functionality  
-public class atm 
+public class Program_3_Bank_managment
 {  
   public static boolean validateInputAmount(Integer amount)
   {
@@ -62,6 +62,7 @@ public class atm
                       
         //get deposite amount from te user  
         deposit = sc.nextInt();  
+        sc.close();
                  if(!validateInputAmount(deposit))
                 {
                   System.out.println("Enter amount greater than zero");
@@ -84,6 +85,6 @@ public class atm
         //exit from the menu  
         System.exit(0);  
             }  
-        }  
+        }
     }  
 }  
