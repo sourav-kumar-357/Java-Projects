@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Program_3_Bank_Management {
+public class Project_3_Bank_Management {
     private static int balance = 100000;
     private static int pin = 1234;  // Default PIN for authentication
     private static final int DAILY_WITHDRAWAL_LIMIT = 50000;
